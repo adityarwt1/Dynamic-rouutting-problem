@@ -1,5 +1,5 @@
-1. make a folder name of [id]
-2. write code catch the param wriitting this code.
+import React from 'react'
+
 export default async function page({params}) {
     const newRoute = (await params).id
   return (
@@ -9,4 +9,4 @@ export default async function page({params}) {
   )
 }
 
-4. your dinamic route is completed
+

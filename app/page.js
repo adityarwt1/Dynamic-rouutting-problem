@@ -1,11 +1,21 @@
-import React from 'react'
+import Link from 'next/link';
 
-function page() {
+const Navbar = () => {
   return (
-    <div>
-      Hello
-    </div>
-  )
-}
+    <nav>
+      <ul>
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/about">About</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
-export default page
+export default Navbar;
